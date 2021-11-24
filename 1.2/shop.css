@@ -1,0 +1,43 @@
+body{
+   background-image: url("photos/bg1.jpg");
+   background-size: cover;
+}
+
+.welcom{
+font-size: 3vw;
+color: #c000ff;
+}
+
+.block1{
+   margin-top: 2vw;
+}
+
+.block1 > div {
+   border:1px solid blue;
+   background: #ac34f7;
+   color: #d0f92e;
+   font-size: 2vw;
+   cursor: pointer;
+ 
+}
+
+.block1 > div:hover{
+   box-shadow: 0px 0px 10px 4px rgb(25, 29, 243);
+}
+
+
+
+button{
+   font-size: 1.5vw;
+   background: blue;
+   color: #fff;
+   border-radius: 7px;
+}
+
+.dostavka_pr, .pokupka, .fullcost, .bonus{
+  font-size: 1.3vw;
+  color: #422ef9;
+  background:#e98cf1;
+  font-weight: bold;
+  margin-top: 1vw;
+}
