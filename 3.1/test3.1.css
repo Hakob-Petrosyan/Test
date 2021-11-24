@@ -1,0 +1,37 @@
+body{
+   background: rgb(238, 189, 238);
+}
+
+.block1{
+   font-size: 2vw;
+   color: darkblue;
+   text-align: center;
+}
+
+.block2{
+   border:1px solid blue ;
+   /* height: 30vw; */
+   margin-top: 0.2vw;
+
+}
+.block2_1 > div{
+   /* border:1px solid red; */
+   float: left;
+   margin: 0 10px;
+}
+
+.block2 > div {
+   margin:  0.2vw 0;
+}
+.block2  div  input {
+   width: 15vw;
+}
+.block2 div select {
+   width: 15vw;
+}
+
+.butt1{
+   background: rgb(85, 101, 241);
+   color:fff;
+   border-radius: 7px;
+}

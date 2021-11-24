@@ -1,0 +1,27 @@
+body{
+   background: rgb(192, 162, 107);
+}
+ #block1{
+   padding: 0 34%;
+    
+ }
+ #block1 > form >input {
+    
+    border-radius: 25px;
+    border:1px solid green;
+    width:10vw;
+    height: 3vw;
+    font-size: 2vw;
+ }
+
+ #day{
+   /* border: 1px solid blue; */
+  text-align: center;
+   font-size: 3vw;
+   margin-top: 2vw;
+   color:rgb(18, 63, 161);
+ }
+
+ .knopka{
+    cursor: pointer;
+ }

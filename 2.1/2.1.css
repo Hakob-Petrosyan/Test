@@ -1,0 +1,76 @@
+body{
+   background: rgb(178, 227, 243);
+}
+.menu > button{
+   background: darkblue;
+   color:#fff;
+   height: 3em;
+   border-radius: 7px;
+}
+.block_plitka{
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr;
+   text-align: center;
+   grid-gap: 1em;
+   font-size: 2em;
+   margin-top: 1em;
+}
+
+.block_spisok{
+   display:grid;
+   grid-template-columns:1fr;
+   grid-gap: 1em;
+   font-size: 2em;
+   margin-top: 1em;
+}
+
+.block_plitka > div{
+   border:1px solid rgb(36, 0, 243);
+   height: 5em;
+   line-height: 5em;
+   color: rgb(162, 0, 255);
+}
+.block_spisok > div{
+   border:1px solid #020f22;
+   height: 2em;
+   line-height: 2em;
+   color: rgb(218, 236, 238);
+   background: rgb(87, 139, 139);
+}
+
+.add{
+   text-align: center;
+   font-size: 1.5em;
+   color: blue;
+   margin-top: 1em;
+   background: rgba(208, 231, 231, 0.863);
+   cursor: pointer;
+}
+
+
+
+@media only screen  and (max-width:1024px){
+   body{
+      background: rgb(243, 212, 153);
+   }
+   .block_plitka{
+      grid-template-columns: 1fr 1fr;
+   }
+   .block_plitka > div{
+      border:1px dotted rgb(255, 0, 242);
+   }
+ }
+@media only screen  and (max-width:768px){
+   body{
+      background: rgb(235, 189, 245);
+      
+   }
+   .block_plitka{
+   grid-template-columns: 1fr;
+   color:rgb(245, 103, 9);
+   }
+   .block_plitka > div{
+      border:1px dashed red;
+   }
+ }
+ 
